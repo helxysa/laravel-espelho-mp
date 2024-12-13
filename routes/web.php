@@ -18,5 +18,4 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PromotoriaController;
 
 // Rota para listar todas as promotorias
-Route::get('/', [PromotoriaController::class, 'index'])->name('promotorias.index'); // Corrigido o nome da rota
 

@@ -9,7 +9,6 @@ class PromotoriaController extends Controller
 {
     public function index()
     {
-        // Consulta usando DB::select
         $promotorias = DB::select("
             SELECT 
                 m.nome AS municipio,
