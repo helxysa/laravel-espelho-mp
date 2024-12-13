@@ -18,7 +18,7 @@ return new class extends Migration {
         $table->date('periodo_fim');
         $table->foreignId('promotor_titular_id')->constrained('promotores');
         $table->foreignId('promotor_designado_id')->constrained('promotores');
-        
+        $table->boolean('is_urgente')->default(false);        
         $table->timestamps();
     });
 }

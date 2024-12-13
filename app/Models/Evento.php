@@ -15,7 +15,8 @@ class Evento extends Model
         'periodo_inicio', 
         'periodo_fim', 
         'promotor_titular_id', 
-        'promotor_designado_id'
+        'promotor_designado_id',
+        'is_urgente'
     ];
 
     /**
